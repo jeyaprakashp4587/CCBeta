@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+main {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+header {
+  background-color: #02315f;
+  height: 5rem;
+  display: flex;
+  padding: 1rem 2rem;
+  align-items: center;
+  column-gap: 2rem;
+  flex-direction: row;
+}
+header > img {
+  width: 3rem;
+  height: 3rem;
+}
+header > h3 {
+  color: #ffff;
+  letter-spacing: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+section {
+  padding: 2rem;
+}
+h2 {
+  letter-spacing: 5px;
+  color: #1a1a1a;
+}
+p,
+li {
+  letter-spacing: 2px;
+  padding: 0.5rem 0;
+  color: rgba(24, 23, 23, 0.719);
+  font-size: 0.8rem;
+  line-height: 1.6rem;
+}
+h4 {
+  color: rgb(6, 6, 37);
+  letter-spacing: 6px;
+  padding: 1rem 0;
+  font-size: 0.8rem;
+}
+span {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #1a1a1aa1;
+  font-weight: 600;
+}
+#button {
+  display: flex;
+  align-items: center;
+  column-gap: 0.6rem;
+  padding: 3rem;
+  justify-content: center;
+  font-weight: 500;
+  letter-spacing: 5px;
+  margin: 1rem 0;
+}
+.downloadIcon {
+  width: 20px;
+  height: 20px;
+  filter: brightness(900);
+}
+#static_a {
+  /* display: block; */
+  letter-spacing: 3px;
+  color: rgb(255, 187, 0);
+  /* padding: 0 0.5rem; */
+  /* font-weight: 70  0; */
+  /* font-size: 0.9rem; */
+}
